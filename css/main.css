@@ -1,0 +1,105 @@
+header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 160px;
+}
+
+nav {
+    padding: 7px;
+    border-bottom: 1px solid gainsboro;
+    margin: 0;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+.logo span {
+    font-size: 30px;
+}
+
+.searcher {
+    display: inline-block;
+}
+
+input {
+    padding: 10px 25px;
+    width: 700px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(240, 239, 239, 0.856);
+    font-size: 17px;
+    margin: 0;
+}
+
+.icons {
+    display: inline-block;
+    font-size: 25px;
+    top: 50%;
+}
+
+.icons span {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 8px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 23px;
+    background-color: rgb(162,146,74);
+    border-radius: 5px;
+    margin-right: 10px;
+    /*
+    background: url(../assets/images/osito.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    */
+}
+
+a {
+    text-decoration: none;
+}
+
+.box a {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;    
+}
+
+section {
+    width: 90%;
+    margin: 150px auto;
+    text-align: center;
+}
+
+figure {
+    margin: 0px;
+}
+
+.pin-box {
+    width: 22%;
+    float: left;
+    margin: 5px 10px;
+}
+
+.pin-box img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+h3, h6, p {
+    text-align: justify;
+}
